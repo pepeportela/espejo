@@ -6,10 +6,12 @@
 from tkinter import *
 from weather_view import weather_view
 from home_view import home_view
+from news_views import news_view
 
 views = {
     "0": weather_view,
-    "1": home_view
+    "1": home_view,
+    "2": news_view
 }
 
 
