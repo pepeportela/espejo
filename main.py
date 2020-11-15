@@ -11,9 +11,6 @@ views = {
     "0": weather_view,
     "1": home_view
 }
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 def change_view(event):
