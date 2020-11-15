@@ -25,11 +25,10 @@ def change_view(event):
 if __name__ == '__main__':
     window = Tk()
     window.title("Bienvenido")
-    #window.attributes('-fullscreen', True)
+    # window.attributes('-fullscreen', True)
     window.configure(bg="black")
     frame_aux = Frame(window)
     frame_aux.configure(bg="black")
     window.bind("<Key>", change_view)
 
     window.mainloop()
-
